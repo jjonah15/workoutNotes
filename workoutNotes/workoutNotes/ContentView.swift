@@ -9,14 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView {
-            List {
-                Text("Work Outs")
+        VStack (alignment: .leading){
+            NavigationView {
+                List {
+                    Text("Work Out Programs")
+                }
             }
         }
         
-        Text("Hello, world!")
-            .padding()
+        
+        
     }
 }
 
